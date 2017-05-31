@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang = "en">
+
+   <head>
+      <title>LightSpeed Demo</title>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+      <script src="node_modules/jquery/dist/jquery.min.js"></script>
+      <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+      <script src="node_modules/papaparse/papaparse.js"></script>
+      <script src="parser.js"></script>
+      <style>
+      .modal-body {
+        max-height:700px;
+      }
+      </style>
+   </head>
+
+   <body>
+      <div id = "app"></div>
+      <script src = "index.js"></script>
+      <div id = "results"></div>
+      <script>
+        $(document).ready(function(){
+          $("#myBtn").click(function(){
+            $("#myModal").modal();
+          });
+        });
+      </script>
+   </body>
+
+</html>

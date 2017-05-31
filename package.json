@@ -1,0 +1,36 @@
+{
+  "name": "lightspeed-csv-demo",
+  "version": "1.0.0",
+  "description": "Lightspeed CSV Demo",
+  "main": "src/main.js",
+  "dependencies": {
+    "babel-core": "^6.24.1",
+    "babel-loader": "^7.0.0",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-react": "^6.24.1",
+    "bootstrap": "^3.3.7",
+    "jquery": "^3.2.1",
+    "papaparse": "^4.3.2",
+    "react": "^15.5.4",
+    "react-dom": "^15.5.4",
+    "react-with-modal": "^0.2.3",
+    "webpack": "^2.6.1",
+    "webpack-dev-server": "^2.4.5"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/boehlecj/react-lightspeed-demo.git"
+  },
+  "devDependencies": {
+    "babel-jest": "^20.0.3",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-react": "^6.24.1",
+    "jest": "^20.0.4",
+    "react-test-renderer": "^15.5.4"
+  },
+  "scripts": {
+    "start": "webpack-dev-server --hot"
+  },
+  "author": "Chuck Boehle",
+  "license": "ISC"
+}
